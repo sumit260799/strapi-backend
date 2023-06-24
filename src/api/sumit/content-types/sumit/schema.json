@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sumits",
+  "info": {
+    "singularName": "sumit",
+    "pluralName": "sumits",
+    "displayName": "sumit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
